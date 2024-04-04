@@ -33,3 +33,10 @@ console.log(
 	'Edit 5 successfully revived:',
 	history.same(edits[5], history.reviveEdit(5))
 );
+
+// const newYaml = yaml.stringify({
+// 	...edits[edits.length - 1],
+// 	history: history.editHistory,
+// });
+//
+// fs.writeFileSync('./demo-yaml.yaml', newYaml);
