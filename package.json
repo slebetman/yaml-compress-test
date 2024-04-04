@@ -1,0 +1,20 @@
+{
+  "name": "yaml-compress-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deep-diff-patcher": "^1.0.4",
+    "fflate": "^0.8.2",
+    "jsondiffpatch": "^0.6.0",
+    "textdiff-create": "^1.1.10",
+    "textdiff-patch": "^1.1.8",
+    "yaml": "^2.4.1"
+  }
+}

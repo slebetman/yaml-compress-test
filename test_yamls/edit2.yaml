@@ -1,0 +1,1420 @@
+id: mdsldocument_2274
+properties: {}
+version: 0.4
+kind: mdsl
+companyType: cp
+pages:
+  - id: consent_screen
+    component: Page
+    properties:
+      name: Lotuss Home Page
+      isConsentPage: true
+      isImmutable: true
+    style:
+      width: 100%
+    children:
+      - id: consent_body
+        component: Container
+        properties:
+          id: GENERATED_CONTAINER
+          name: GENERATED_CONTAINER
+          variable_name: ""
+          mmob_field: ""
+        style:
+          border: 0px none rgb(51, 51, 51)
+          display: block
+          flex: 0 1 auto
+          gap: normal
+          margin: 0px auto
+          opacity: "1"
+          position: static
+          width: 100%
+          max-width: 600px
+          background: "#FFFFFF"
+          min-height: 100vh
+          padding: 16px 0px
+        children:
+          - id: consent_text_container
+            component: Container
+            properties:
+              id: header
+              name: header
+              variable_name: ""
+              mmob_field: ""
+            style:
+              display: flex
+              flex-direction: column
+              padding: 0px
+            children: []
+          - id: sections
+            component: Container
+            properties:
+              id: sections
+              name: sections
+            style:
+              display: flex
+              flex-wrap: wrap
+              flex-direction: column
+              padding: 0px
+              align-items: center
+              gap: 10px
+            children:
+              - id: section_1
+                component: Button
+                properties:
+                  id: insurance
+                  name: insurance
+                style:
+                  flex: max(162.5px, 100%/2 - 5px)
+                  display: flex
+                  flex-direction: column
+                  position: relative
+                  overflow: hidden
+                  border-radius: 12px
+                  background-clip: border-box
+                  margin: 0 16px
+                  width: calc( 100% - 32px )
+                  background-position-x: -3px
+                  max-height: 130px
+                  max-width: 390px
+                  background: url(https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/insurance.png)
+                    0% 60% / cover no-repeat
+                  text-align: left
+                  label: Insurance
+                  align-items: flex-start
+                children:
+                  - id: insurance_header_container
+                    component: Container
+                    properties:
+                      id: insurance_header_container
+                      name: insurance_header_container
+                    style:
+                      position: relative
+                      height: 132px
+                      padding: 0px
+                      width: 100%
+                    children:
+                      - id: insurance_title
+                        component: Container
+                        properties: {}
+                        style:
+                          position: relative
+                          padding: 0px
+                          margin: 60px 16px
+                        children:
+                          - id: insurance_text
+                            component: Paragraph
+                            properties:
+                              content: Insurance
+                            style:
+                              font-weight: "700"
+                              font-size: 16px
+                              line-height: 12px
+                              color: "#FFFFFF"
+                            children: []
+              - id: section_2
+                component: Button
+                properties:
+                  id: financing
+                  name: financing
+                style:
+                  flex: max(162.5px, 100%/2 - 5px)
+                  display: flex
+                  flex-direction: column
+                  position: relative
+                  overflow: hidden
+                  border-radius: 12px
+                  background-clip: border-box
+                  margin: 0 16px
+                  width: calc( 100% - 32px )
+                  background-position-x: -3px
+                  max-height: 130px
+                  background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/financing.png")
+                    0% 60% / cover no-repeat
+                  text-align: left
+                  label: Financing
+                  max-width: 390px
+                  align-items: flex-start
+                children:
+                  - id: financing_header_container
+                    component: Container
+                    properties:
+                      id: financing_header_container
+                      name: financing_header_container
+                    style:
+                      position: relative
+                      height: 132px
+                      padding: 0px
+                      width: 100%
+                    children:
+                      - id: financing_title
+                        component: Container
+                        properties: {}
+                        style:
+                          position: relative
+                          padding: 0px
+                          margin: 60px 16px
+                        children:
+                          - id: financing_text
+                            component: Paragraph
+                            properties:
+                              content: Financing
+                            style:
+                              font-weight: "700"
+                              font-size: 16px
+                              line-height: 12px
+                              color: "#FFFFFF"
+                            children: []
+              - id: section_4
+                component: Button
+                properties:
+                  id: money
+                  name: money
+                  display: false
+                style:
+                  flex: max(162.5px, 100%/2 - 5px)
+                  display: flex
+                  flex-direction: column
+                  position: relative
+                  overflow: hidden
+                  border-radius: 12px
+                  background-clip: border-box
+                  margin: 0 16px
+                  width: calc( 100% - 32px )
+                  background-position-x: -3px
+                  max-height: 130px
+                  background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/wealth.png")  0%
+                    60% / cover no-repeat
+                  text-align: left
+                  label: Wealth
+                  max-width: 390px
+                  align-items: flex-start
+                children:
+                  - id: wealth_header_container
+                    component: Container
+                    properties:
+                      id: wealth_header_container
+                      name: wealth_header_container
+                    style:
+                      position: relative
+                      height: 132px
+                      padding: 0px
+                      width: 100%
+                    children:
+                      - id: wealth_title
+                        component: Container
+                        properties: {}
+                        style:
+                          position: relative
+                          padding: 0px
+                          margin: 60px 16px
+                        children:
+                          - id: wealth_text
+                            component: Paragraph
+                            properties:
+                              content: Wealth
+                            style:
+                              font-weight: "700"
+                              font-size: 16px
+                              line-height: 12px
+                              color: "#FFFFFF"
+                            children: []
+              - id: section_3
+                component: Button
+                properties:
+                  id: charity
+                  name: charity
+                  display: true
+                style:
+                  flex: max(162.5px, 100%/2 - 5px)
+                  display: flex
+                  flex-direction: column
+                  position: relative
+                  overflow: hidden
+                  border-radius: 12px
+                  background-clip: border-box
+                  margin: 0 16px
+                  width: calc( 100% - 32px )
+                  background-position-x: -3px
+                  max-height: 130px
+                  background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/charity.png")
+                    0% 60% / cover no-repeat
+                  text-align: left
+                  label: Charity
+                  max-width: 390px
+                  align-items: flex-start
+                children:
+                  - id: charity_header_container
+                    component: Container
+                    properties:
+                      id: charity_header_container
+                      name: charity_header_container
+                    style:
+                      position: relative
+                      height: 132px
+                      padding: 0px
+                      width: 100%
+                    children:
+                      - id: financing_title
+                        component: Container
+                        properties: {}
+                        style:
+                          position: relative
+                          padding: 0px
+                          margin: 60px 16px
+                        children:
+                          - id: charity_text
+                            component: Paragraph
+                            properties:
+                              content: Make a Donation
+                            style:
+                              font-weight: "700"
+                              font-size: 16px
+                              line-height: 12px
+                              color: "#FFFFFF"
+                            children: []
+    editorProperties: null
+  - id: insurance_page
+    component: Page
+    properties:
+      name: Insurance Page
+      isImmutable: null
+    style:
+      background: white
+      width: 100%
+      border-radius: -5px
+    children:
+      - id: sections_insurance
+        component: Container
+        properties:
+          id: sections
+          name: sections
+        style:
+          display: flex
+          flex-wrap: wrap
+          flex-direction: column
+          padding: 0px
+          align-items: center
+          gap: 10px
+          padding-top: 16px
+          border-radius: -1px
+        children:
+          - id: section_motor_insurance
+            component: Button
+            properties:
+              id: motor_insurance
+              name: motor_insurance
+            style:
+              flex: max(162.5px, 100%/2 - 5px)
+              display: flex
+              flex-direction: column
+              position: relative
+              overflow: hidden
+              border-radius: 12px
+              background-clip: border-box
+              margin: 0 16px
+              width: calc( 100% - 32px )
+              background-position-x: -3px
+              max-height: 130px
+              background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/motorInsurance.png")  0%
+                60% / cover no-repeat
+              text-align: left
+              label: Motor Insurance
+              max-width: 390px
+              align-items: flex-start
+            children:
+              - id: motor_insurance_header_container
+                component: Container
+                properties:
+                  id: motor_insurance_header_container
+                  name: motor_insurance_header_container
+                style:
+                  position: relative
+                  height: 132px
+                  padding: 0px
+                  width: 100%
+                children:
+                  - id: motor_insurance_title
+                    component: Container
+                    properties: {}
+                    style:
+                      position: relative
+                      padding: 0px
+                      margin: 60px 16px
+                    children:
+                      - id: motor_insurance_text
+                        component: Paragraph
+                        properties:
+                          content: Motor Insurance
+                        style:
+                          font-weight: "700"
+                          font-size: 16px
+                          line-height: 12px
+                          color: "#FFFFFF"
+                          margin-bottom: 10px
+                        children: []
+          - id: section_motor_takaful
+            component: Button
+            properties:
+              id: motor_takaful
+              name: motor_takaful
+              display: false
+            style:
+              flex: max(162.5px, 100%/2 - 5px)
+              display: flex
+              flex-direction: column
+              position: relative
+              overflow: hidden
+              border-radius: 12px
+              background-clip: border-box
+              margin: 0 16px
+              width: calc( 100% - 32px )
+              background-position-x: -3px
+              max-height: 130px
+              background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/motorTakaful.png")  0%
+                60% / cover no-repeat
+              text-align: left
+              label: Motor Takaful
+              max-width: 390px
+              align-items: flex-start
+            children:
+              - id: motor_takaful_header_container
+                component: Container
+                properties:
+                  id: motor_takaful_header_container
+                  name: motor_takaful_header_container
+                style:
+                  position: relative
+                  height: 132px
+                  padding: 0px
+                  width: 100%
+                children:
+                  - id: motor_takaful_title
+                    component: Container
+                    properties: {}
+                    style:
+                      position: relative
+                      padding: 0px
+                      margin: 48px 16px
+                    children:
+                      - id: motor_takaful_text
+                        component: Paragraph
+                        properties:
+                          content: Motor Takaful
+                        style:
+                          font-weight: "700"
+                          font-size: 16px
+                          line-height: 12px
+                          color: "#FFFFFF"
+                          margin-bottom: 10px
+                        children: []
+                      - id: motor_takaful_text_1
+                        component: Paragraph
+                        properties:
+                          content: Pay As You Drive
+                        style:
+                          font-weight: "700"
+                          font-size: 16px
+                          line-height: 12px
+                          color: "#FFFFFF"
+                        children: []
+          - id: section_motorcycle_takaful
+            component: Button
+            properties:
+              id: motorcycle_takaful
+              name: motorcycle_takaful
+              display: false
+            style:
+              flex: max(162.5px, 100%/2 - 5px)
+              display: flex
+              flex-direction: column
+              position: relative
+              overflow: hidden
+              border-radius: 12px
+              background-clip: border-box
+              margin: 0 16px
+              width: calc( 100% - 32px )
+              background-position-x: -3px
+              max-height: 130px
+              background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/motorcycleTakaful.png")  0%
+                60% / cover no-repeat
+              text-align: left
+              label: Motorcycle Insurance
+              max-width: 390px
+              align-items: flex-start
+            children:
+              - id: motorcycle_takaful_header_container
+                component: Container
+                properties:
+                  id: motorcycle_takaful_header_container
+                  name: motorcycle_takaful_header_container
+                style:
+                  position: relative
+                  height: 132px
+                  padding: 0px
+                  width: 100%
+                children:
+                  - id: motorcycle_takaful_title
+                    component: Container
+                    properties: {}
+                    style:
+                      position: relative
+                      padding: 0px
+                      margin: 60px 16px
+                    children:
+                      - id: motorcycle_takaful_text
+                        component: Paragraph
+                        properties:
+                          content: Motorcycle Takaful
+                        style:
+                          font-weight: "700"
+                          font-size: 16px
+                          line-height: 12px
+                          color: "#FFFFFF"
+                          margin-bottom: 10px
+                        children: []
+          - id: section_takaful_personal_accident
+            component: Button
+            properties:
+              id: takaful_personal_accident
+              name: takaful_personal_accident
+              display: false
+            style:
+              flex: max(162.5px, 100%/2 - 5px)
+              display: flex
+              flex-direction: column
+              position: relative
+              overflow: hidden
+              border-radius: 12px
+              background-clip: border-box
+              margin: 0 16px
+              width: calc( 100% - 32px )
+              background-position-x: -3px
+              max-height: 130px
+              background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/takafulPA.png")  0%
+                60% / cover no-repeat
+              text-align: left
+              label: Takaful Personal Accident
+              max-width: 390px
+              align-items: flex-start
+            children:
+              - id: takaful_personal_accident_header_container
+                component: Container
+                properties:
+                  id: takaful_personal_accident_header_container
+                  name: takaful_personal_accident_header_container
+                style:
+                  position: relative
+                  height: 132px
+                  padding: 0px
+                  width: 100%
+                children:
+                  - id: takaful_personal_accident_title
+                    component: Container
+                    properties: {}
+                    style:
+                      position: relative
+                      padding: 0px
+                      margin: 48px 16px
+                    children:
+                      - id: takaful_personal_accident_text
+                        component: Paragraph
+                        properties:
+                          content: Takaful Personal
+                        style:
+                          font-weight: "700"
+                          font-size: 16px
+                          line-height: 12px
+                          color: "#FFFFFF"
+                          margin-bottom: 10px
+                        children: []
+                      - id: takaful_personal_accident_text_1
+                        component: Paragraph
+                        properties:
+                          content: Accident
+                        style:
+                          font-weight: "700"
+                          font-size: 16px
+                          line-height: 12px
+                          color: "#FFFFFF"
+                        children: []
+          - id: section_takaful_health
+            component: Button
+            properties:
+              id: takaful_health
+              name: takaful_health
+              display: false
+            style:
+              text-align: left
+              label: Takaful Health
+              max-width: 390px
+              align-items: flex-start
+          - id: section_travel_insurance
+            component: Button
+            properties:
+              id: travel_insurance
+              name: travel_insurance
+            style:
+              flex: max(162.5px, 100%/2 - 5px)
+              display: flex
+              flex-direction: column
+              position: relative
+              overflow: hidden
+              border-radius: 12px
+              background-clip: border-box
+              margin: 0 16px
+              width: calc( 100% - 32px )
+              background-position-x: -3px
+              max-height: 130px
+              background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/travelInsurance.png")  0%
+                60% / cover no-repeat
+              text-align: left
+              label: Travel Insurance
+              max-width: 390px
+              align-items: flex-start
+            children:
+              - id: travel_insurance_header_container
+                component: Container
+                properties:
+                  id: travel_insurance_header_container
+                  name: travel_insurance_header_container
+                style:
+                  position: relative
+                  height: 132px
+                  padding: 0px
+                  width: 100%
+                children:
+                  - id: travel_insurance_title
+                    component: Container
+                    properties: {}
+                    style:
+                      position: relative
+                      padding: 0px
+                      margin: 48px 16px
+                    children:
+                      - id: travel_insurance_text
+                        component: Paragraph
+                        properties:
+                          content: Travel Insurance
+                        style:
+                          font-weight: "700"
+                          font-size: 16px
+                          line-height: 12px
+                          color: "#FFFFFF"
+                          margin-bottom: 10px
+                        children: []
+          - id: section_travel_takaful
+            component: Button
+            properties:
+              id: travel_takaful
+              name: travel_takaful
+              display: false
+            style:
+              flex: max(162.5px, 100%/2 - 5px)
+              display: flex
+              flex-direction: column
+              position: relative
+              overflow: hidden
+              border-radius: 12px
+              background-clip: border-box
+              margin: 0 16px
+              width: calc( 100% - 32px )
+              background-position-x: -3px
+              max-height: 130px
+              background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/travel.png")  0%
+                60% / cover no-repeat
+              text-align: left
+              label: Travel Insurance
+              max-width: 390px
+              align-items: flex-start
+            children:
+              - id: travel_takaful_header_container
+                component: Container
+                properties:
+                  id: travel_takaful_header_container
+                  name: travel_takaful_header_container
+                style:
+                  position: relative
+                  height: 132px
+                  padding: 0px
+                  width: 100%
+                children:
+                  - id: travel_takaful_title
+                    component: Container
+                    properties: {}
+                    style:
+                      position: relative
+                      padding: 0px
+                      margin: 48px 16px
+                    children:
+                      - id: travel_takaful_text
+                        component: Paragraph
+                        properties:
+                          content: Travel Takaful
+                        style:
+                          font-weight: "700"
+                          font-size: 16px
+                          line-height: 12px
+                          color: "#FFFFFF"
+                          margin-bottom: 10px
+                        children: []
+          - id: section_life_insurance
+            component: Button
+            properties:
+              id: life_insurance
+              name: life_insurance
+            style:
+              flex: max(162.5px, 100%/2 - 5px)
+              display: flex
+              flex-direction: column
+              position: relative
+              overflow: hidden
+              border-radius: 12px
+              background-clip: border-box
+              margin: 0 16px
+              width: calc( 100% - 32px )
+              background-position-x: -3px
+              max-height: 130px
+              background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/lifeInsurance.png")  0%
+                60% / cover no-repeat
+              text-align: left
+              label: Life Insurance
+              max-width: 390px
+              align-items: flex-start
+            children:
+              - id: life_insurance_header_container
+                component: Container
+                properties:
+                  id: life_insurance_header_container
+                  name: life_insurance_header_container
+                style:
+                  position: relative
+                  height: 132px
+                  padding: 0px
+                  width: 100%
+                children:
+                  - id: life_insurance_title
+                    component: Container
+                    properties: {}
+                    style:
+                      position: relative
+                      padding: 0px
+                      margin: 48px 16px
+                    children:
+                      - id: life_insurance_text
+                        component: Paragraph
+                        properties:
+                          content: Life Insurance
+                        style:
+                          font-weight: "700"
+                          font-size: 16px
+                          line-height: 12px
+                          color: "#FFFFFF"
+                          margin-bottom: 10px
+                        children: []
+    editorProperties: null
+  - id: credit_page
+    component: Page
+    properties:
+      name: Credit Page
+      isImmutable: null
+    style:
+      background: white
+      width: 100%
+    children:
+      - id: insurance_page_body_325
+        component: Container
+        properties:
+          id: credit_page_container
+          name: credit_page_container
+          variable_name: ""
+          mmob_field: ""
+        style:
+          border: 0px none rgb(51, 51, 51)
+          display: block
+          flex: 0 1 auto
+          gap: normal
+          margin: 0px auto
+          opacity: "1"
+          position: static
+          width: 100%
+          max-width: 600px
+          background: "#FFFFFF"
+          padding: 0px
+        children:
+          - id: sections_credit
+            component: Container
+            properties:
+              id: sections
+              name: sections
+            style:
+              display: flex
+              flex-wrap: wrap
+              flex-direction: column
+              padding: 0px
+              align-items: center
+              gap: 10px
+              padding-top: 16px
+              border-radius: -1px
+            children:
+              - id: section_credit_cards
+                component: Button
+                properties:
+                  id: credit_cards
+                  name: credit_cards
+                  display: true
+                style:
+                  flex: max(162.5px, 100%/2 - 5px)
+                  display: flex
+                  flex-direction: column
+                  position: relative
+                  overflow: hidden
+                  border-radius: 12px
+                  background-clip: border-box
+                  margin: 0 16px
+                  width: calc( 100% - 32px )
+                  background-position-x: -3px
+                  max-height: 130px
+                  background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/creditCards.png")  0%
+                    60% / cover no-repeat
+                  text-align: left
+                  label: Credit Cards
+                  max-width: 390px
+                  align-items: flex-start
+                children:
+                  - id: credit_cards_header_container
+                    component: Container
+                    properties:
+                      id: credit_cards_header_container
+                      name: credit_cards_header_container
+                    style:
+                      position: relative
+                      height: 132px
+                      padding: 0px
+                      width: 100%
+                    children:
+                      - id: credit_cards_title
+                        component: Container
+                        properties: {}
+                        style:
+                          position: relative
+                          padding: 0px
+                          margin: 60px 16px
+                        children:
+                          - id: home_finance_text
+                            component: Paragraph
+                            properties:
+                              content: Credit Cards
+                            style:
+                              font-weight: "700"
+                              font-size: 16px
+                              line-height: 12px
+                              color: "#FFFFFF"
+                            children: []
+              - id: section_personal_finance
+                component: Button
+                properties:
+                  id: personal_finance
+                  name: personal_finance
+                style:
+                  flex: max(162.5px, 100%/2 - 5px)
+                  display: flex
+                  flex-direction: column
+                  position: relative
+                  overflow: hidden
+                  border-radius: 12px
+                  background-clip: border-box
+                  margin: 0 16px
+                  width: calc( 100% - 32px )
+                  background-position-x: -3px
+                  max-height: 130px
+                  background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/pf.png")  0%
+                    60% / cover no-repeat
+                  text-align: left
+                  label: Personal Financing
+                  max-width: 390px
+                children:
+                  - id: personal_finance_header_container
+                    component: Container
+                    properties:
+                      id: personal_finance_header_container
+                      name: personal_finance_header_container
+                    style:
+                      position: relative
+                      height: 132px
+                      padding: 0px
+                      width: 100%
+                    children:
+                      - id: personal_finance_title
+                        component: Container
+                        properties: {}
+                        style:
+                          position: relative
+                          padding: 0px
+                          margin: 60px 16px
+                        children:
+                          - id: personal_finance_text
+                            component: Paragraph
+                            properties:
+                              content: Personal Financing
+                            style:
+                              font-weight: "700"
+                              font-size: 16px
+                              line-height: 12px
+                              color: "#FFFFFF"
+                            children: []
+    editorProperties: null
+  - id: wealth_page
+    component: Page
+    properties:
+      name: Wealth Page
+      isImmutable: null
+    style:
+      background: white
+      width: 100%
+      border-radius: -1px
+    children:
+      - id: wealth_page_body
+        component: Container
+        properties:
+          id: wealth_page_container
+          name: wealth_page_container
+          variable_name: ""
+          mmob_field: ""
+        style:
+          border: 0px none rgb(51, 51, 51)
+          display: block
+          flex: 0 1 auto
+          gap: normal
+          margin: 0px auto
+          opacity: "1"
+          position: static
+          width: 100%
+          max-width: 600px
+          background: "#FFFFFF"
+          padding: 0px
+        children:
+          - id: sections_wealth
+            component: Container
+            properties:
+              id: sections
+              name: sections
+            style:
+              display: flex
+              flex-wrap: wrap
+              flex-direction: column
+              padding: 0px
+              align-items: center
+              gap: 10px
+              padding-top: 16px
+              border-radius: -1px
+            children:
+              - id: section_casa
+                component: Button
+                properties:
+                  id: casa
+                  name: casa
+                style:
+                  flex: max(162.5px, 100%/2 - 5px)
+                  display: flex
+                  flex-direction: column
+                  position: relative
+                  overflow: hidden
+                  border-radius: 12px
+                  background-clip: border-box
+                  margin: 0 16px
+                  width: calc( 100% - 32px )
+                  background-position-x: -3px
+                  max-height: 130px
+                  background: url("https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/casa.png")  0%
+                    60% / cover no-repeat
+                  text-align: left
+                  label: CASA
+                  max-width: 390px
+                children:
+                  - id: casa_header_container
+                    component: Container
+                    properties:
+                      id: casa_header_container
+                      name: casa_header_container
+                    style:
+                      position: relative
+                      height: 132px
+                      padding: 0px
+                      width: 100%
+                    children:
+                      - id: casa_title
+                        component: Container
+                        properties: {}
+                        style:
+                          position: relative
+                          padding: 0px
+                          margin: 60px 16px
+                        children:
+                          - id: casa_text
+                            component: Paragraph
+                            properties:
+                              content: Current Account /
+                            style:
+                              font-weight: "700"
+                              font-size: 16px
+                              line-height: 12px
+                              color: "#FFFFFF"
+                              margin-bottom: 10px
+                            children: []
+                          - id: casa_text_1
+                            component: Paragraph
+                            properties:
+                              content: Savings Account
+                            style:
+                              font-weight: "700"
+                              font-size: 16px
+                              line-height: 12px
+                              color: "#FFFFFF"
+                            children: []
+    editorProperties: null
+  - id: example_ecosystem_new_page
+    component: Page
+    properties:
+      name: Donation Page
+      isConsentPage: false
+      isImmutable: false
+    style:
+      display: flex
+      flex-direction: column
+      width: 100%
+      height: 100vh
+      padding: 0px
+    children:
+      - id: main_screen_container
+        component: Container
+        properties:
+          id: main_screen_container
+          name: Main screen container
+        style:
+          padding: 0px
+        children:
+          - id: header
+            component: Container
+            properties:
+              id: header
+              name: Header
+            style:
+              display: flex
+              flex-direction: column
+              gap: 4px
+            children:
+              - id: title
+                component: Paragraph
+                properties:
+                  id: title
+                  name: Title
+                  content: New screen
+                style:
+                  text-align: center
+                  font-weight: "700"
+                  font-size: 20px
+                children: []
+              - id: subtitle
+                component: Paragraph
+                properties:
+                  id: subtitle
+                  name: Subtitle
+                  content: Click me to customise.
+                style:
+                  text-align: center
+                  font-weight: "510"
+                  font-size: 14px
+                children: []
+      - id: uinode_689
+        component: Image
+        properties:
+          name: GENERATED_IMAGE
+          src: https://assets.stag.ef-network.com/cp/cp_TMaiVSyyzBx2rZqF-PqdY/image/tile/motorInsurance.png
+          alignment: center
+          label: Click Here
+        style: {}
+        children: []
+variableGroups: []
+actions:
+  - id: actionnode_64
+    properties:
+      name: null
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_LrePMvRJVLOiJdYs67r09
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 38
+          y: 103
+  - id: actionnode_65
+    properties:
+      name: null
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_Qtdb8Rx1nW15IemA_xVkr
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 1005
+          y: 99
+  - id: actionnode_66
+    properties:
+      name: null
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_EY13WVlj1tJCsIOYSGGtw
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: -97
+          y: 255
+  - id: actionnode_67
+    properties:
+      name: null
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_7QB8o-2iKa-vpIG6x2b74
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 757
+          y: 285
+  - id: actionnode_68
+    properties:
+      name: null
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_iBlRP9tgxbPZojO7cKSHT
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 885
+          y: 841.0000000000001
+  - id: actionnode_69
+    properties:
+      name: null
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_BeGFas6Vno3kRc43_1c2W
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 615
+          y: -3
+  - id: actionnode_70
+    properties:
+      name: null
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_riCwwwNMQ0nwTaqIasXGV
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: -251
+          y: -189
+  - id: actionnode_71
+    properties:
+      name: null
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_8ZIvbcnPJq8IBFLZpVOS3
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 1147
+          y: 973
+  - id: actionnode_648
+    properties:
+      name: new_redirect
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_NRSUpZ262hM9ef3klf4PU
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 238
+          y: 514
+  - id: actionnode_2437
+    properties:
+      name: new_redirect
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_Ey5WA-SWXL4eN10aZb7tR
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 58
+          y: 372
+  - id: actionnode_3108
+    properties:
+      name: new_redirect
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_DYUQVSC8DTSo8vZWmPN-Q
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 493.9999999999991
+          y: 604
+  - id: actionnode_2072
+    properties:
+      name: new_redirect
+      type: redirect
+      target: null
+      method: null
+      arguments: []
+      isImmutable: false
+    meta:
+      url: /integration/cpd_xH1KQOhFh_hIIVKTCBJF5
+      newWindow: false
+    editorProperties:
+      displayCoordinates:
+        - x: 606
+          y: 740
+status: draft
+dataConnections:
+  - id: connectionnode_167
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_64
+    inputType: trigger
+    output: $ui.section_personal_finance
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_168
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_65
+    inputType: trigger
+    output: $ui.section_3
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_169
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_66
+    inputType: trigger
+    output: $ui.section_motor_insurance
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_174
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_71
+    inputType: trigger
+    output: $ui.section_life_insurance
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_172
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_69
+    inputType: trigger
+    output: $ui.section_home_finance
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_173
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_70
+    inputType: trigger
+    output: $ui.section_credit_cards
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_170
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_67
+    inputType: trigger
+    output: $ui.section_casa
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_803
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.consent_screen
+    inputType: setActive
+    output: $ui.uinode_724
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_1290
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.insurance_page
+    inputType: setActive
+    output: $ui.section_1
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_1291
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.credit_page
+    inputType: setActive
+    output: $ui.section_2
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_1292
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.wealth_page
+    inputType: setActive
+    output: $ui.section_4
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_2451
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.consent_screen
+    inputType: setActive
+    output: $ui.uinode_1301
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_2452
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.consent_screen
+    inputType: setActive
+    output: $ui.uinode_1302
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_2453
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.consent_screen
+    inputType: setActive
+    output: $ui.uinode_1303
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_1488
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.consent_screen
+    inputType: setActive
+    output: $ui.uinode_1482_324
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_1583
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.consent_screen
+    inputType: setActive
+    output: $ui.uinode_1482
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_1869
+    properties:
+      name: null
+      isImmutable: null
+    input: $ui.consent_screen
+    inputType: setActive
+    output: $ui.uinode_1482_338
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_1336
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_648
+    inputType: trigger
+    output: $ui.section_motorcycle_takaful
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_2771
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_2437
+    inputType: trigger
+    output: $ui.section_motor_takaful
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_3561
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_3108
+    inputType: trigger
+    output: $ui.section_takaful_personal_accident
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_1610
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_68
+    inputType: trigger
+    output: $ui.section_travel_takaful
+    outputType: null
+    bidirectional: null
+  - id: connectionnode_2653
+    properties:
+      name: null
+      isImmutable: null
+    input: $a.actionnode_2072
+    inputType: trigger
+    output: $ui.section_travel_insurance
+    outputType: null
+    bidirectional: null
+dataSources: []
