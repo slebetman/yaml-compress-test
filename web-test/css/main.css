@@ -1,0 +1,27 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+	font-size: 18px;
+}
+
+button .material-symbols-outlined {
+	vertical-align: bottom;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	width: 100dvw;
+	flex-grow: 1;
+}
+
+.main div {
+	padding: 20px;
+	height: 100%;
+}

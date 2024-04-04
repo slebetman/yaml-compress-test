@@ -1,0 +1,9 @@
+.history {
+	width: 30%;
+}
+
+.history pre {
+	overflow: hidden;
+	overflow-y: auto;
+	height: 500px;
+}

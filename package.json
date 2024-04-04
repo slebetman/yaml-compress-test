@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "webpack": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +16,8 @@
     "jsondiffpatch": "^0.6.0",
     "textdiff-create": "^1.1.10",
     "textdiff-patch": "^1.1.8",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
     "yaml": "^2.4.1"
   }
 }

@@ -1,0 +1,22 @@
+.editor {
+	flex-grow: 1;
+}
+
+.main div.btnGroup {
+	display: inline-block;
+	width: fit-content;
+	position: relative;
+	top:50px
+}
+
+.btnGroup button {
+	display: block;
+	margin: 5px;
+	width: 150px;
+}
+
+json-editor {
+	width: 75%;
+	height: 500px;
+	font-size: 18px;
+}
