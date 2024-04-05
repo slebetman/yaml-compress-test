@@ -2,6 +2,11 @@
 	flex-grow: 1;
 }
 
+.editor-ui {
+	display: flex;
+	flex-direction: row;
+}
+
 .main div.btnGroup {
 	display: inline-block;
 	width: fit-content;
