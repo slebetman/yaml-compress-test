@@ -2,7 +2,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    main: './lib/main-webpack.mjs',
+    'undo-demo': path.resolve(__dirname, 'lib', 'main-webpack.mjs'),
+    'version-demo': path.resolve(__dirname, 'lib', 'version-demo-webpack.mjs'),
   },
   output: {
     filename: '[name].js',

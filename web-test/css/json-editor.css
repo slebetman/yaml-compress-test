@@ -20,6 +20,10 @@
 	width: 150px;
 }
 
+.btnGroup button:last-child {
+	margin-top: 40px;
+}
+
 json-editor {
 	width: 75%;
 	height: 500px;
