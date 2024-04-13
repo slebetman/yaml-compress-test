@@ -1,6 +1,6 @@
 import yaml from 'yaml';
 import fs from 'fs';
-import * as history from './lib/history.mjs';
+import UndoRedo from './lib/undo-redo.mjs'
 
 let rawEdits = [fs.readFileSync('./test_yamls/test.yaml', 'utf8')];
 
@@ -20,18 +20,33 @@ console.log(
 	edits.map((x) => JSON.stringify(x).length)
 );
 
+const history = new UndoRedo();
+
 for (const e of edits) {
-	history.addHistory(e);
+	history.add(e);
 }
 
 console.log(
 	'History sizes',
-	history.editHistory.map((x) => x.length)
+	history.editHistory.map((x) => x[0].length + x[1].length)
 );
+
+let editFive;
+
+const cb = x => editFive = x
+
+history.undo(cb);
+history.undo(cb);
+history.undo(cb);
+history.undo(cb);
+history.undo(cb);
+history.undo(cb);
+history.redo(cb);
+history.undo(cb);
 
 console.log(
 	'Edit 5 successfully revived:',
-	JSON.stringify(edits[5]) === JSON.stringify(history.reviveEdit(5))
+	JSON.stringify(edits[5]) === JSON.stringify(editFive)
 );
 
 // const newYaml = yaml.stringify({

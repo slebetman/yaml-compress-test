@@ -1,9 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  entry: './lib/main-webpack.mjs',
+  entry: {
+    main: './lib/main-webpack.mjs',
+  },
   output: {
-    filename: 'main.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'web-test', 'js'),
   },
   // mode: 'development',
