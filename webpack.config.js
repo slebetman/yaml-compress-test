@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    'undo-demo': path.resolve(__dirname, 'lib', 'main-webpack.mjs'),
+    'undo-demo': path.resolve(__dirname, 'lib', 'undo-demo-webpack.mjs'),
     'version-demo': path.resolve(__dirname, 'lib', 'version-demo-webpack.mjs'),
   },
   output: {
