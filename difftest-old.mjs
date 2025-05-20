@@ -1,11 +1,12 @@
 import history from "./lib/difftest.mjs";
 import humanize from "humanize";
 
-console.time('Execution time');
-
 console.log('History array:', history.length);
 
 const obj = history.reviveEdit(2);
+
+console.time('Execution time');
+
 history.add(obj);
 
 console.log('History array:', history.length);
