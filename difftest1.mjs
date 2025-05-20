@@ -8,5 +8,8 @@ const obj = history.reviveEdit(2);
 history.add(obj);
 
 console.log('History array:', history.length);
+console.log('Diff size:',
+	history.editHistory[history.editHistoryEnd()][1].length
+);
 
 console.timeEnd('Execution time');
