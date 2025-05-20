@@ -1,4 +1,5 @@
 import history from "./lib/difftest.mjs";
+import humanize from "humanize";
 
 console.time('Execution time');
 
@@ -9,7 +10,9 @@ history.add(obj);
 
 console.log('History array:', history.length);
 console.log('Diff size:',
-	history.editHistory[history.editHistoryEnd()][1].length
+	humanize.filesize(
+		history.editHistory[history.editHistoryEnd()][1].length
+	)
 );
 
 console.timeEnd('Execution time');
